@@ -4,7 +4,7 @@
 
 > Note : It is recommended to setup a virtual environment and then run the program
 ```bash
-py -m pip venv ./venv  #creating virtual environment
+py -m venv ./venv  #creating virtual environment
 venv\Scripts\activate  #to activate the environment after creation
 ```
 
