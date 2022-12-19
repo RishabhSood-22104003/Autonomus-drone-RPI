@@ -35,3 +35,8 @@ To add more libraries to the `requiremnts.txt` file just install the library usi
 ```bash
 pip freeze > requirements.txt
 ```
+## To upgrade a package already installed
+
+```bash
+pip install --upgrade --force-reinstall <package_name>
+```
