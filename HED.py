@@ -45,6 +45,7 @@ class CropLayer(object):
         # crop during the forward pass)
 
         return[[batchSize,numChannels, H, W]]
+        return[(self.startX + self.endX)/2, (self.startY + self.endY)/2]
 
     def forward(self,inputs):
         #use the derived (x,y)-coordinates to perform the crop
